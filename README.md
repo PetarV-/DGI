@@ -17,9 +17,9 @@ If you make advantage of DGI in your research, please cite the following in your
 
 ```
 @inproceedings{
-veličković2018deep,
+velickovic2018deep,
 title={Deep Graph Infomax},
-author={Petar Veličković and William Fedus and William L. Hamilton and Pietro Liò and Yoshua Bengio and R Devon Hjelm},
+author={Petar Veli{\v{c}}kovi{\'{c}} and William Fedus and William L. Hamilton and Pietro Li{\`{o}} and Yoshua Bengio and R Devon Hjelm},
 booktitle={International Conference on Learning Representations},
 year={2019},
 url={https://openreview.net/forum?id=rklz9iAcKQ},
