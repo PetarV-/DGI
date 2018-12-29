@@ -5,7 +5,7 @@ class GCN(nn.Module):
     def __init__(self, in_ft, out_ft, act, bias=True):
         super(GCN, self).__init__()
         self.fc = nn.Linear(in_ft, out_ft, bias=False)
-        self.act = nn.PReLU() if 'prelu' else act
+        self.act = nn.PReLU() if act == 'prelu' else act
         
         if bias:
             self.bias = nn.Parameter(torch.FloatTensor(out_ft))
