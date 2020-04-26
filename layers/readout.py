@@ -12,5 +12,5 @@ class AvgReadout(nn.Module):
             return torch.mean(seq, 1)
         else:
             msk = torch.unsqueeze(msk, -1)
-            return torch.sum(seq * msk, 1) / torch.sum(msk)
+            return torch.sum(seq * msk, 1) / torch.sum(msk, 1).unsqueeze(1)
 
